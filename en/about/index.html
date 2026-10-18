@@ -23,6 +23,11 @@
     p{margin-bottom:16px;color:#333}
     .badge{display:inline-block;background:rgba(255,106,0,.12);color:var(--orange);font-size:.85rem;font-weight:600;padding:6px 14px;border-radius:100px;margin-bottom:20px}
     .cta{display:inline-block;margin-top:24px;background:var(--orange);color:#fff;padding:14px 28px;border-radius:8px;font-weight:600}
+    .contact-form{margin-top:24px;display:grid;gap:12px;max-width:420px}
+    .contact-form input,.contact-form textarea{width:100%;padding:12px 14px;border:1px solid #ddd;border-radius:8px;font:inherit}
+    .contact-form textarea{min-height:120px;resize:vertical}
+    .contact-form button{background:var(--orange);color:#fff;border:none;padding:14px 28px;border-radius:8px;font-weight:600;cursor:pointer;font-size:1rem}
+    .contact-form button:hover{opacity:.9}
     footer{text-align:center;padding:40px 24px;color:var(--gray-500);font-size:.9rem;border-top:1px solid #eee;margin-top:48px}
   </style>
 </head>
@@ -44,9 +49,19 @@
     <p>One dedicated Account Manager, full data transparency, focus on ROI/ROAS and continuous optimisation. We don’t sell “campaigns” – we build a measurement and growth system based on data.</p>
 
     <h2>Contact</h2>
-    <p><strong>+48 730 031 161</strong><br/>
-    <a href="mailto:magda@analytics4.online">magda@analytics4.online</a></p>
-    <a class="cta" href="mailto:magda@analytics4.online">Get in touch</a>
+    <p><strong>+39 347 198 8894</strong><br/>
+    <a href="mailto:stefano@analytics4.online">stefano@analytics4.online</a></p>
+
+    <form class="contact-form" action="https://formsubmit.co/stefano@analytics4.online" method="POST">
+      <input type="hidden" name="_subject" value="Contact from Analytics 4 website (EN)">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://analytics4.online/en/about/?sent=1">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Phone (optional)">
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Send message</button>
+    </form>
   </main>
   <footer>
     <a href="/en/">Home</a> · <a href="/en/privacy/">Privacy</a> · <a href="/en/cookie/">Cookies</a>
