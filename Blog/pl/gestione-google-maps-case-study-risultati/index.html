@@ -22,6 +22,22 @@
 </script>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#0b0b0d;color:#eeeeee;font-family:Arial,sans-serif;line-height:1.7}header{padding:20px 5%;border-bottom:1px solid #333}main{max-width:940px;margin:40px auto;padding:0 22px}a{color:#ff963c}.lang{display:flex;gap:18px;flex-wrap:wrap;margin:24px 0}.lang [aria-current]{font-weight:bold;text-decoration:underline}article img{max-width:100%;height:auto;border-radius:8px;margin:16px 0}article{overflow-wrap:anywhere}article h1{line-height:1.25;font-size:clamp(1.5rem,4vw,2rem);margin-bottom:12px}article h2{margin-top:36px;margin-bottom:12px;font-size:1.35rem;color:#fff}article h3{margin-top:24px;margin-bottom:8px;font-size:1.1rem}.summary{background:#16161a;border:1px solid #333;border-left:4px solid #ff963c;border-radius:10px;padding:18px 20px;margin:24px 0}.summary strong{color:#ff963c}.summary ul{margin:10px 0 0;padding-left:20px}.faq{margin-top:40px;border-top:1px solid #333;padding-top:24px}.faq details{border:1px solid #333;border-radius:10px;padding:14px 16px;margin:12px 0;background:#121216}.faq summary{cursor:pointer;font-weight:700;color:#fff}.faq details p{margin:12px 0 0;color:#ccc}.cta{margin:40px 0;padding:24px;background:#16161a;border-radius:12px;border:1px solid #333;text-align:center}.cta a{display:inline-block;margin:8px;padding:12px 20px;background:#ff963c;color:#111;font-weight:700;border-radius:8px;text-decoration:none}ul{padding-left:22px}
+.gbp-card{background:#fff;border-radius:16px;padding:28px 28px 20px;color:#202124;max-width:560px;margin:20px auto;font-family:Roboto,Arial,sans-serif;box-shadow:0 4px 24px rgba(0,0,0,.2)}
+.gbp-card h4{font-size:1.25rem;font-weight:700;line-height:1.3;margin:0 0 10px;color:#202124}
+.gbp-card .gbp-sub{font-size:.85rem;color:#5f6368;margin:0 0 16px;line-height:1.45}
+.gbp-card .gbp-btn{display:inline-block;background:#1a73e8;color:#fff!important;border-radius:24px;padding:10px 20px;font-size:.9rem;font-weight:600;margin-bottom:20px;text-decoration:none}
+.gbp-card h5{font-size:.95rem;font-weight:600;margin:0 0 14px;color:#202124}
+.gbp-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:14px}
+.gbp-metric{background:#f8f9fa;border-radius:12px;padding:12px 10px;text-align:center}
+.gbp-metric .n{font-size:1.5rem;font-weight:700;color:#202124}
+.gbp-metric .l{font-size:.72rem;color:#5f6368;margin:4px 0 6px;line-height:1.25}
+.gbp-up{color:#137333;font-size:.8rem;font-weight:600}
+.gbp-down{color:#c5221f;font-size:.8rem;font-weight:600}
+.gbp-note{font-size:.7rem;color:#5f6368;line-height:1.4;margin:8px 0 14px}
+.gbp-card h6{font-size:.85rem;font-weight:600;margin:0 0 8px;padding-top:12px;border-top:1px solid #e8eaed;color:#202124}
+.gbp-term{display:flex;justify-content:space-between;font-size:.8rem;padding:5px 0;border-bottom:1px solid #f1f3f4;color:#5f6368}
+.gbp-term b{color:#202124;font-weight:600}
+@media(max-width:600px){.gbp-grid{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -58,7 +74,27 @@
 <p>Google Maps to najpopularniejsza lokalna wyszukiwarka na świecie. <strong>Profil Firmy</strong> (dawniej Google Moja Firma) to cyfrowa wizytówka: godziny, zdjęcia, opinie i przyciski do kontaktu. Wymaga ciągłej optymalizacji, nie tylko jednorazowego uzupełnienia.</p>
 <h2>Od zainteresowania do konwersji: liczby z case study</h2>
 <p>Case study: prestiżowy gabinet stomatologiczny (Werona), dane grudzień 2025 – styczeń 2026.</p>
-<p><img alt="Statystyki Google Maps grudzień 2025" src="../../../assets/blog/5f3824e98a9539a26fc8.jpg" loading="lazy"/></p>
+
+<div class="gbp-card" role="img" aria-label="Raport Google Maps grudzień 2025">
+<h4>Twój raport o profilu firmy z 203 interakcjami* w ostatnim miesiącu</h4>
+<p class="gbp-sub">Zobacz wyniki w grudniu 2025 w porównaniu z poprzednim miesiącem.</p>
+<span class="gbp-btn">Zobacz pełny raport</span>
+<h5>Podsumowanie wyników</h5>
+<div class="gbp-grid">
+  <div class="gbp-metric"><div class="n">28</div><div class="l">telefony</div><div class="gbp-up">↑ +12%</div></div>
+  <div class="gbp-metric"><div class="n">6</div><div class="l">kliknięcia w czat</div><div class="gbp-up">↑ +200%</div></div>
+  <div class="gbp-metric"><div class="n">113</div><div class="l">osoby proszące o wskazówki dojazdu</div><div class="gbp-up">↑ +98%</div></div>
+  <div class="gbp-metric"><div class="n">56</div><div class="l">wizyty na stronie z profilu</div><div class="gbp-up">↑ +47%</div></div>
+  <div class="gbp-metric"><div class="n">1.397</div><div class="l">wyświetlenia profilu</div><div class="gbp-up">↑ +11%</div></div>
+  <div class="gbp-metric"><div class="n">484</div><div class="l">wyszukiwania</div><div class="gbp-up">↑ +19%</div></div>
+</div>
+<p class="gbp-note">* Interakcja następuje, gdy klient dzwoni, dokonuje rezerwacji, zostaje przekierowany na Twoją stronę lub prosi o wskazówki dojazdu z profilu firmy.</p>
+<h6>Najczęściej wyszukiwane frazy</h6>
+<div class="gbp-term"><span>1&nbsp; dentista verona</span><b>182</b></div>
+<div class="gbp-term"><span>2&nbsp; studio dentistico verona</span><b>68</b></div>
+<div class="gbp-term"><span>3&nbsp; dentisti verona</span><b>42</b></div>
+</div>
+
 <h3>Faza 1: Autorytet i widoczność (grudzień 2025)</h3>
 <ul>
 <li><strong>+98%</strong> osób proszących o wskazówki dojazdu (113 osób w kierunku gabinetu)</li>
@@ -73,7 +109,27 @@
 <li>Wizyty na stronie <strong>+41%</strong> (79 celowanych wizyt)</li>
 </ul>
 <p>Wskazówki dojazdu spadły o 38%, ale kontakty bezpośrednie wzrosły: ruch jest bardziej kwalifikowany, a użytkownicy gotowi umówić wizytę.</p>
-<p><img alt="Raport interakcji Google styczeń 2026" src="../../../assets/blog/e058f18889942b2fe091.jpg" loading="lazy"/></p>
+
+<div class="gbp-card" role="img" aria-label="Raport Google Maps styczeń 2026">
+<h4>Twój raport o profilu firmy z 188 interakcjami* w ostatnim miesiącu</h4>
+<p class="gbp-sub">Zobacz wyniki w styczniu 2026 w porównaniu z poprzednim miesiącem.</p>
+<span class="gbp-btn">Zobacz pełny raport</span>
+<h5>Podsumowanie wyników</h5>
+<div class="gbp-grid">
+  <div class="gbp-metric"><div class="n">31</div><div class="l">telefony</div><div class="gbp-up">↑ +10%</div></div>
+  <div class="gbp-metric"><div class="n">9</div><div class="l">kliknięcia w czat</div><div class="gbp-up">↑ +50%</div></div>
+  <div class="gbp-metric"><div class="n">69</div><div class="l">osoby proszące o wskazówki dojazdu</div><div class="gbp-down">↓ −38%</div></div>
+  <div class="gbp-metric"><div class="n">79</div><div class="l">wizyty na stronie z profilu</div><div class="gbp-up">↑ +41%</div></div>
+  <div class="gbp-metric"><div class="n">1.727</div><div class="l">wyświetlenia profilu</div><div class="gbp-up">↑ +23%</div></div>
+  <div class="gbp-metric"><div class="n">596</div><div class="l">wyszukiwania</div><div class="gbp-up">↑ +23%</div></div>
+</div>
+<p class="gbp-note">* Interakcja następuje, gdy klient dzwoni, dokonuje rezerwacji, zostaje przekierowany na Twoją stronę lub prosi o wskazówki dojazdu z profilu firmy.</p>
+<h6>Najczęściej wyszukiwane frazy</h6>
+<div class="gbp-term"><span>1&nbsp; dentista verona</span><b>190</b></div>
+<div class="gbp-term"><span>2&nbsp; studio dentistico verona</span><b>54</b></div>
+<div class="gbp-term"><span>3&nbsp; brand name</span><b>51</b></div>
+</div>
+
 <h2>Siła marki</h2>
 <p>Na początku dominowały ogólne frazy: „dentista verona” (190), "studio dentistico verona" (54). Po wzmocnieniu obecności online silnie wzrosły wyszukiwania po <strong>nazwie marki</strong> — silny sygnał lokalnego SEO, że firma stała się lokalnym punktem odniesienia.</p>
 <h2>Dlaczego warto powierzyć to ekspertom</h2>
