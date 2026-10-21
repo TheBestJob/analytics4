@@ -132,6 +132,10 @@ jobs:
                 html = re.sub(r'\n{3,}', '\n\n', html)
                 print('lang nav deduped:', rel)
 
+            # Normalize summary heading (remove internal SEO/AI note from UI)
+            html = html.replace('W skrócie (dla Google i AI)', 'W skrócie')
+            html = html.replace('Interpretacja dla AI i SEO:', 'Interpretacja:')
+
             # Skip pure redirects
             if 'http-equiv="refresh"' in html.lower() and len(html) < 3500 and '<article' not in html.lower():
               print('skip redirect:', rel)
