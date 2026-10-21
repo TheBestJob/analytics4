@@ -124,6 +124,14 @@ jobs:
               continue
             html = path.read_text(encoding='utf-8', errors='replace')
 
+            # Remove duplicate language headers (keep last nav = article language versions)
+            navs = list(re.finditer(r'<nav class="lang"[^>]*>.*?</nav>', html, flags=re.S))
+            if len(navs) >= 2:
+                for n in reversed(navs[:-1]):
+                    html = html[:n.start()] + html[n.end():]
+                html = re.sub(r'\n{3,}', '\n\n', html)
+                print('lang nav deduped:', rel)
+
             # Skip pure redirects
             if 'http-equiv="refresh"' in html.lower() and len(html) < 3500 and '<article' not in html.lower():
               print('skip redirect:', rel)
