@@ -35,28 +35,17 @@
   <url><loc>https://analytics4.online/en/google-merchant-center/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://analytics4.online/en/google-business-profile/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://analytics4.online/en/ai-digital-strategy/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://analytics4.online/en/website-integrations-ai/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://analytics4.online/en/ai-website-integrations/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- About + legal -->
-  <url><loc>https://analytics4.online/o-nas/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/it/chi-siamo/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/en/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://analytics4.online/cookie/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://analytics4.online/it/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://analytics4.online/it/cookie/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://analytics4.online/en/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://analytics4.online/en/cookie/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-
-  <!-- Blog indexes -->
-  <url><loc>https://analytics4.online/Blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <!-- Blog hubs -->
+  <url><loc>https://analytics4.online/Blog/</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://analytics4.online/Blog/it/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://analytics4.online/Blog/en/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/</loc><changefreq>weekly</changefreq><priority>0.75</priority></url>
 
-  <!-- Blog IT (root posts) -->
+  <!-- Blog IT (default language articles) -->
   <url><loc>https://analytics4.online/Blog/consent-mode-v2/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/Blog/consent-mode-spiegato-facile/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://analytics4.online/Blog/consent-mode-spiegato-facile/</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
   <url><loc>https://analytics4.online/Blog/google-ads-grant/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/ecommerce-dropshipping/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/lead-gen-vincente/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -79,18 +68,18 @@
   <url><loc>https://analytics4.online/Blog/en/budget-google-ads-ecommerce-quanto-serve/</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
   <url><loc>https://analytics4.online/Blog/en/offerta-promo-google-ads/</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
 
-  <!-- Blog PL (tutti gli articoli indexabili) -->
+  <!-- Blog PL (canonical SEO slugs) -->
   <url><loc>https://analytics4.online/Blog/pl/consent-mode-v2/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/google-ads-grant/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/ecommerce-dropshipping/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/lead-gen-vincente/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/checkout-e-commerce/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/ristrutturazione-google-ads-roas-feed-ai/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/Blog/pl/gestione-google-maps-case-study-risultati/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/Blog/pl/lead-generation-b2b-salute-benessere-google-ads/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://analytics4.online/Blog/pl/budget-google-ads-ecommerce-quanto-serve/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://analytics4.online/Blog/pl/google-maps-case-study-wyniki/</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://analytics4.online/Blog/pl/lead-generation-b2b-zdrowie-wellness-google-ads/</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://analytics4.online/Blog/pl/budget-google-ads-ecommerce-ile-potrzeba/</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/offerta-promo-google-ads/</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
+  <url><loc>https://analytics4.online/Blog/pl/strona-internetowa-jako-handlowiec/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/blog-item-a19bfe95bd600095037002d1060e80ea/</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
   <url><loc>https://analytics4.online/Blog/pl/blog-item-a19dbfd1161f00704fa68e32b1cc29c7/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://analytics4.online/Blog/pl/blog-item-a19dbffb03210069f8af44981842eaef/</loc><changefreq>monthly</changefreq><priority>0.55</priority></url>
 </urlset>
