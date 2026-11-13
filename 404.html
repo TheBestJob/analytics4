@@ -4,13 +4,48 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>404 – Strona nie znaleziona | Analytics 4</title>
-  <meta name="robots" content="noindex"/>
-  <link rel="canonical" href="https://analytics4.online/404.html"/>
-  <style>body{font-family:system-ui,sans-serif;text-align:center;padding:80px 24px;color:#111}a{color:#FF6A00}</style>
+  <meta name="robots" content="noindex, follow"/>
+  <style>
+    body{font-family:system-ui,sans-serif;text-align:center;padding:80px 24px;color:#111;background:#fff}
+    a{color:#FF6A00}
+    .muted{color:#666;font-size:.95rem;margin-top:24px}
+  </style>
+  <script>
+  (function () {
+    var path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+    var map = {
+      "/pl": "/",
+      "/pl/": "/",
+      "/pl/Google-Ads": "/google-ads/",
+      "/pl/google-ads": "/google-ads/",
+      "/pl/google-merchant-center": "/google-merchant-center/",
+      "/pl/google-analytics-4": "/google-analytics-4/",
+      "/pl/google-business-profile": "/google-business-profile/",
+      "/pl/ga4": "/google-analytics-4/",
+      "/pl/o-nas": "/o-nas/",
+      "/en/Google-Ads": "/en/google-ads/",
+      "/it/Google-Ads": "/it/google-ads/",
+      "/en/ai-website-integrations": "/en/website-integrations-ai/",
+      "/ga4": "/google-analytics-4/"
+    };
+    // Normalize without trailing slash for lookup
+    var key = path;
+    if (map[key]) {
+      location.replace(map[key]);
+      return;
+    }
+    // /pl/anything-else → home
+    if (key === "/pl" || key.indexOf("/pl/") === 0) {
+      location.replace("/");
+      return;
+    }
+  })();
+  </script>
 </head>
 <body>
   <h1>404</h1>
   <p>Strona nie została znaleziona.</p>
-  <p><a href="/">Wróć na stronę główną</a></p>
+  <p><a href="/">Wróć na stronę główną</a> · <a href="/Blog/pl/">Blog</a> · <a href="/google-ads/">Google Ads</a></p>
+  <p class="muted">Jeśli szukałeś wersji PL pod /pl/…, treść jest na domenie głównej (bez prefiksu /pl/).</p>
 </body>
 </html>
